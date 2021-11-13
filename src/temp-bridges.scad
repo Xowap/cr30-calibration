@@ -200,7 +200,8 @@ module temp_bridge_base(value) {
                 size=cube_size * 0.45, 
                 valign = "center",
                 halign = "center",
-                font = font
+                font = font,
+                $fn = cube_layers
             );
         }
 
@@ -213,7 +214,8 @@ module temp_bridge_base(value) {
             size = cube_size * 0.35,
             font = font,
             valign = "center",
-            halign = "center"
+            halign = "center",
+            $fn = cube_layers
         );
     }
 
